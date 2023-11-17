@@ -1,0 +1,38 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
+.header{
+    text-align: center;
+}
+.content{
+    width: 300px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: aqua;
+}
+
+div .list{
+    list-style: none;
+}
+
+.list a {
+    text-decoration: none;
+}
+.recipe{
+    margin: 0 auto;
+}
+.jollof,
+.fried,
+.egusi{
+    padding: 8px;
+    width: 250px;
+    height: 100px;
+    background-color: black;
+    text-align: center;
+}
