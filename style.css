@@ -1,38 +1,47 @@
 html {
     box-sizing: border-box;
-  }
+}
   *,
   *::before,
   *::after {
     box-sizing: inherit;
-  }
+}
 
 .header{
     text-align: center;
+    margin-bottom: 50px;
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 .content{
-    width: 300px;
-    height: 500px;
+    background-color:aquamarine;
+    width: 400px;
     margin: 0 auto;
-    background-color: aqua;
-}
-
-div .list{
-    list-style: none;
-}
-
-.list a {
-    text-decoration: none;
+    padding: 15px;
+    border-radius: 5px;
+    font-family: cursive;
 }
 .recipe{
+    width: 300px;
     margin: 0 auto;
 }
+.egusi,
 .jollof,
-.fried,
-.egusi{
-    padding: 8px;
-    width: 250px;
-    height: 100px;
-    background-color: black;
+.fried{
+    height: 90px;
+    background-color: antiquewhite;
     text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 25px;
+    border-radius: 5px 20px;
 }
+.egusi,
+.fried{
+    margin-bottom: 10px;
+}
+div .list a{
+    text-decoration: none;
+    color:black;
+}
+
